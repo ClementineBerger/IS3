@@ -29,7 +29,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 // Appliquer Montserrat au sous-titre
-.archive__subtitle {
+.archive__subtitle, .subtitle, .title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700; // Optionnel, pour un style plus marqué
 }

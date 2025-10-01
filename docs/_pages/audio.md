@@ -30,9 +30,9 @@ toc_sticky: true
     <table>
         <thread>
             <tr>
-                <th><center>Impulsive sounds</center></th>        
-                <th><center>Stationary Background</center></th>
-                <th><center>Mix</center></th>   
+                <th style="font-family: 'Montserrat', sans-serif;"><center>Impulsive sounds</center></th>        
+                <th style="font-family: 'Montserrat', sans-serif;"><center>Stationary Background</center></th>
+                <th style="font-family: 'Montserrat', sans-serif;"><center>Mix</center></th>   
             </tr>               
         </thread>
         <tbody>

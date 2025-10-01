@@ -70,14 +70,29 @@ toc_sticky: true
 </head> -->
 <body>
     <table>
-        <thead>
+        <thread>
             <tr>
                 <th><center></center></th>
                 <th><center>Impulsive sounds</center></th>
                 <th><center>Stationary Background</center></th>
             </tr>               
-        </thead>
+        </thread>
         <tbody>
+            <tr>
+                <td>IS³</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example1/is3_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example1/is3_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>        
             <tr>
                 <td>HPSS $p_m = 1$</td>
                 <td>
@@ -104,6 +119,36 @@ toc_sticky: true
                 <td>
                     <audio controls controlslist="nodownload">
                         <source src="audio/example1/hpss2_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>Nongpiur</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example1/wavelet_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example1/wavelet_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>Conv-TasNet</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example1/convtasnet_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example1/convtasnet_bkg.wav" type="audio/wav"/>
                         Your browser does not support the audio element.
                     </audio>
                 </td>

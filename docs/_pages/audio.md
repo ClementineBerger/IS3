@@ -441,3 +441,255 @@ toc_sticky: true
 </html>
 <br/>
 
+# Real recordings examples 
+
+To better appreciate the performance of the model, it is also interesting to test it on real-life recordings (for which we don't have groundtruth for either the impulsive or the stationary sources).
+{: .text-justify}
+
+## Example 1
+
+> Original recording
+
+<html>
+<body>
+    <table>
+        <thread>
+            <tr>
+                <th style="font-family: 'Montserrat', sans-serif;"><center>Mix</center></th>   
+            </tr>               
+        </thread>
+        <tbody>
+            <tr>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/mix.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>                   
+        </tbody>
+    </table>
+</body>
+</html>
+<br/>
+
+> Separated signals with the different methods
+
+<html>
+<!-- <head>
+    <title>Tableau d'Audios</title>
+</head> -->
+<body>
+    <table style="font-family: 'Montserrat', sans-serif; font-weight: 400; text-align: center;">
+        <thread>
+            <tr>
+                <th><center></center></th>
+                <th style="font-family: 'Montserrat', sans-serif;">Impulsive sounds</th>
+                <th style="font-family: 'Montserrat', sans-serif;">Stationary Background</th>
+        </tr>            
+        </thread>
+        <tbody>
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">IS³</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/is3_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/is3_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>        
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">HPSS $p_m = 1$</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/hpss_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/hpss_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">HPSS $p_m = 2$</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/hpss2_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/hpss2_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">Nongpiur</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/wavelet_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/wavelet_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">Conv-TasNet</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/convtasnet_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example4/convtasnet_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<br/>
+
+## Example 2
+
+> Original recording
+
+<html>
+<body>
+    <table>
+        <thread>
+            <tr>
+                <th style="font-family: 'Montserrat', sans-serif;"><center>Mix</center></th>   
+            </tr>               
+        </thread>
+        <tbody>
+            <tr>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/mix.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>                   
+        </tbody>
+    </table>
+</body>
+</html>
+<br/>
+
+> Separated signals with the different methods
+
+<html>
+<!-- <head>
+    <title>Tableau d'Audios</title>
+</head> -->
+<body>
+    <table style="font-family: 'Montserrat', sans-serif; font-weight: 400; text-align: center;">
+        <thread>
+            <tr>
+                <th><center></center></th>
+                <th style="font-family: 'Montserrat', sans-serif;">Impulsive sounds</th>
+                <th style="font-family: 'Montserrat', sans-serif;">Stationary Background</th>
+        </tr>            
+        </thread>
+        <tbody>
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">IS³</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/is3_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/is3_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>        
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">HPSS $p_m = 1$</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/hpss_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/hpss_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">HPSS $p_m = 2$</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/hpss2_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/hpss2_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">Nongpiur</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/wavelet_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/wavelet_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-family: 'Montserrat', sans-serif;">Conv-TasNet</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/convtasnet_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example5/convtasnet_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<br/>

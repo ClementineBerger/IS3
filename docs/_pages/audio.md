@@ -4,7 +4,7 @@ layout: single
 permalink: /audio
 author_profile: false
 header:
-  overlay_color: "#cc3131" #"#000"
+  overlay_color: "#5cbf6b" #"#000"
   overlay_filter: "0.3"
 excerpt: #"title"
 toc: true

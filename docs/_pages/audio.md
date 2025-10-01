@@ -462,7 +462,7 @@ To better appreciate the performance of the model, it is also interesting to tes
             <tr>
                 <td>
                     <audio controls controlslist="nodownload">
-                        <source src="audio/example4/mix.wav" type="audio/wav"/>
+                        <source src="audio/example4/real_mix.wav" type="audio/wav"/>
                         Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -586,7 +586,7 @@ To better appreciate the performance of the model, it is also interesting to tes
             <tr>
                 <td>
                     <audio controls controlslist="nodownload">
-                        <source src="audio/example5/mix.wav" type="audio/wav"/>
+                        <source src="audio/example5/real_mix.wav" type="audio/wav"/>
                         Your browser does not support the audio element.
                     </audio>
                 </td>

@@ -30,8 +30,8 @@ toc_sticky: true
     <table>
         <thread>
             <tr>
-                <th><center>Stationary Background</center></th>
                 <th><center>Impulsive sounds</center></th>        
+                <th><center>Stationary Background</center></th>
                 <th><center>Mix</center></th>   
             </tr>               
         </thread>
@@ -39,13 +39,13 @@ toc_sticky: true
             <tr>
                 <td>
                     <audio controls controlslist="nodownload">
-                        <source src="audio/example1/bkg.wav" type="audio/wav"/>
+                        <source src="audio/example1/impulse.wav" type="audio/wav"/>
                         Your browser does not support the audio element.
                     </audio>
                 </td>
                 <td>
                     <audio controls controlslist="nodownload">
-                        <source src="audio/example1/impulse.wav" type="audio/wav"/>
+                        <source src="audio/example1/bkg.wav" type="audio/wav"/>
                         Your browser does not support the audio element.
                     </audio>
                 </td>
@@ -89,6 +89,21 @@ toc_sticky: true
                 <td>
                     <audio controls controlslist="nodownload">
                         <source src="audio/example1/hpss_bkg.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>HPSS $p_m = 2$</td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example1/hpss2_impulse.wav" type="audio/wav"/>
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <audio controls controlslist="nodownload">
+                        <source src="audio/example1/hpss2_bkg.wav" type="audio/wav"/>
                         Your browser does not support the audio element.
                     </audio>
                 </td>

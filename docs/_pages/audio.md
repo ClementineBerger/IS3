@@ -69,17 +69,17 @@ toc_sticky: true
     <title>Tableau d'Audios</title>
 </head> -->
 <body>
-    <table>
+    <table style="font-family: 'Montserrat', sans-serif; font-weight: 400; text-align: center;">
         <thread>
             <tr>
                 <th><center></center></th>
-                <th><center>Impulsive sounds</center></th>
-                <th><center>Stationary Background</center></th>
-            </tr>               
+                <th style="font-family: 'Montserrat', sans-serif;">Impulsive sounds</th>
+                <th style="font-family: 'Montserrat', sans-serif;">Stationary Background</th>
+        </tr>            
         </thread>
         <tbody>
             <tr>
-                <td>IS³</td>
+                <td style="font-family: 'Montserrat', sans-serif;">IS³</td>
                 <td>
                     <audio controls controlslist="nodownload">
                         <source src="audio/example1/is3_impulse.wav" type="audio/wav"/>
@@ -94,7 +94,7 @@ toc_sticky: true
                 </td>
             </tr>        
             <tr>
-                <td>HPSS $p_m = 1$</td>
+                <td style="font-family: 'Montserrat', sans-serif;">HPSS $p_m = 1$</td>
                 <td>
                     <audio controls controlslist="nodownload">
                         <source src="audio/example1/hpss_impulse.wav" type="audio/wav"/>
@@ -109,7 +109,7 @@ toc_sticky: true
                 </td>
             </tr>
             <tr>
-                <td>HPSS $p_m = 2$</td>
+                <td style="font-family: 'Montserrat', sans-serif;">HPSS $p_m = 2$</td>
                 <td>
                     <audio controls controlslist="nodownload">
                         <source src="audio/example1/hpss2_impulse.wav" type="audio/wav"/>
@@ -124,7 +124,7 @@ toc_sticky: true
                 </td>
             </tr>
             <tr>
-                <td>Nongpiur</td>
+                <td style="font-family: 'Montserrat', sans-serif;">Nongpiur</td>
                 <td>
                     <audio controls controlslist="nodownload">
                         <source src="audio/example1/wavelet_impulse.wav" type="audio/wav"/>
@@ -139,7 +139,7 @@ toc_sticky: true
                 </td>
             </tr>
             <tr>
-                <td>Conv-TasNet</td>
+                <td style="font-family: 'Montserrat', sans-serif;">Conv-TasNet</td>
                 <td>
                     <audio controls controlslist="nodownload">
                         <source src="audio/example1/convtasnet_impulse.wav" type="audio/wav"/>

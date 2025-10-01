@@ -8,22 +8,22 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-body {
-    font-family: 'Montserrat', sans-serif;
-  }
+// body {
+//     font-family: 'Montserrat', sans-serif;
+//   }
 
-// Appliquer Montserrat aux titres
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700; // Optionnel, pour un style plus marqué
-  }
+// // Appliquer Montserrat aux titres
+// h1, h2, h3, h4, h5, h6 {
+//     font-family: 'Montserrat', sans-serif;
+//     font-weight: 700; // Optionnel, pour un style plus marqué
+//   }
   
-  // Appliquer Montserrat au pied de page
-  footer {
-    font-family: 'Montserrat', sans-serif;
-  }
+//   // Appliquer Montserrat au pied de page
+//   footer {
+//     font-family: 'Montserrat', sans-serif;
+//   }
   
-  // Appliquer Montserrat aux autres éléments spécifiques si nécessaire
-  .navbar, .sidebar, .page__footer {
-    font-family: 'Montserrat', sans-serif;
-  }
+//   // Appliquer Montserrat aux autres éléments spécifiques si nécessaire
+//   .navbar, .sidebar, .page__footer {
+//     font-family: 'Montserrat', sans-serif;
+//   }

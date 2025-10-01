@@ -23,20 +23,27 @@ footer {
 font-family: 'Montserrat', sans-serif;
 }
 
-// Appliquer Montserrat aux autres éléments spécifiques si nécessaire
-.navbar, .sidebar, .page__footer {
-  font-family: 'Montserrat', sans-serif;
-}
-
-// Appliquer Montserrat au sous-titre
-.archive__subtitle, .subtitle, .title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700; // Optionnel, pour un style plus marqué
-}
-
-// Appliquer Montserrat aux liens vers les pages
-.entries-list a, .entries-grid a {
+// Appliquer Montserrat à tous les tableaux
+table, th, td {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; // Optionnel, ajustez selon vos besoins
-  text-decoration: none; // Optionnel, pour supprimer le soulignement
+  text-align: center; // Optionnel, pour centrer le texte
 }
+
+// // Appliquer Montserrat aux autres éléments spécifiques si nécessaire
+// .navbar, .sidebar, .page__footer {
+//   font-family: 'Montserrat', sans-serif;
+// }
+
+// // Appliquer Montserrat au sous-titre
+// .archive__subtitle, .subtitle, .title {
+//   font-family: 'Montserrat', sans-serif;
+//   font-weight: 700; // Optionnel, pour un style plus marqué
+// }
+
+// // Appliquer Montserrat aux liens vers les pages
+// .entries-list a, .entries-grid a {
+//   font-family: 'Montserrat', sans-serif;
+//   font-weight: 400; // Optionnel, ajustez selon vos besoins
+//   text-decoration: none; // Optionnel, pour supprimer le soulignement
+// }

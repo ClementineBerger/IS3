@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Perceptual Noise-Masking with Music through Deep Spectral Envelope Shaping"
+title                    : "IS³ : Generic Impulsive--Stationary Sound Separation in Acoustic Scenes using Deep Filtering"
 title_separator          : "-"
-subtitle                 : "Companion website for the ICASSP article."
+subtitle                 : "Companion website for the WASPAA 2025 article."
 name                     : "Clémentine Berger"
 description              : "An amazing website."
 url                      : "https://clementineberger.github.io"

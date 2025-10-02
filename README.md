@@ -21,11 +21,38 @@ To this end, we introduce IS³, a neural network designed for Impulsive–Statio
 ## Set-up
 
 
-## IS^3
+### Environment variables
+
+You need to set the following environment variables:
+
+- `DATA_DIR`: path to the root directory where the datasets will be generated and stored
+
+- `REPO_SAVE`: path to your repository folder (where you cloned this repository) or a mirrored one (used to save the results of the experiments)
+
+## IS³
 
 
 ## Baselines
 
+### Harmonic-Percussive Source Separation (HPSS) 
+
+Using Librosa's implementation of HPSS using two different settings of the margin parameter $p_m$
+$$
+M_p(t,f) = \frac{X_p(t, k)}{X_h(t,k) + \epsilon} \geq p_m
+$$
+
+and we use the percussive mask to extract the impulsive source and its complement to extract the stationary source.
+
+You can find the configuration file in `baselines/HPSS/config.py`. The configurations used in the paper are "001" with `margin=1` and "003" with `margin=2`.
+
+### Nongpiur's wavelet filtering \[1\]
+Implementation of the wavelet filtering method proposed by R. C. Nongpiur in \[1\].
+
+You can find the configuration file in `baselines/wavelet/config.py`. The configuration used in the paper is "002". 
+
+### Conv-TasNet
+
+Based on `asteroid`'s implementation of Conv-TasNet \[2\], we adapted the model to perform source separation at a sampling rate of 44.1 kHz.
 
 ## Evaluation
 

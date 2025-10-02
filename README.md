@@ -36,10 +36,9 @@ You need to set the following environment variables:
 
 ### Harmonic-Percussive Source Separation (HPSS) 
 
-Using Librosa's implementation of HPSS using two different settings of the margin parameter $p_m$
-$$
-M_p(t,f) = \frac{X_p(t, k)}{X_h(t,k) + \epsilon} \geq p_m
-$$
+Using Librosa's implementation of HPSS using two different settings of the margin parameter $p_m$,
+
+$$ M_p(t,f) = \frac{X_p(t, k)}{X_h(t,k) + \epsilon} \geq p_m $$
 
 and we use the percussive mask to extract the impulsive source and its complement to extract the stationary source.
 

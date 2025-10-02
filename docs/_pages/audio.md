@@ -20,7 +20,9 @@ We compare our proposed IS³ model with the Harmonic-Percussive Sound Separation
 {: .text-justify}
 
 > **References**
+>
 > \[1\] R. C. Nongpiur. Impulse noise removal in speech using wavelets. In ICASSP, 2008.
+>
 > \[2\] Y. Luo and N. Mesgarani. Conv-TasNet: Surpassing ideal time-frequency magnitude masking for speech separation. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2019.
 {: .text-justify}
 

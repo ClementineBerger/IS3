@@ -25,4 +25,5 @@ dependencies:
     - oct2py==5.8.0
     - pydub>=0.25.1
     - audiomentations==0.38.0
+    - asteroid
     - -e .

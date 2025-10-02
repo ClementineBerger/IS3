@@ -5,8 +5,8 @@ permalink: /
 author_profile: false
 classes: wide
 header:
-  overlay_color: "#f29c3f" #"#000"
-  overlay_filter: "0.3"
+  overlay_color: "#eb9f34" #"#000"
+  overlay_filter: "0.1"
 excerpt: #"title"
 ---
 

@@ -32,6 +32,35 @@ You need to set the following environment variables:
 ## IS³
 
 
+## Data generation
+
+We provide a data generation pipeline that creates training, validation and test sets for the impulsive-stationary sound separation task. The pipeline uses existing datasets of isolated impulsive sounds and stationary sounds, combines them with various augmentations and generates mixtures with their corresponding ground truth sources.
+
+Here are the datasets we used in the paper (you can use your own datasets as well):
+- Background sounds: Dcase2018 Task 1, CochlScene, Arte, Cas2023, LitisRouen
+- Isolated events: ESC-50, ReaLISED, VocalSound, FreesoundOneShotPercussive, Nonspeech7k
+
+For both types of sounds, we also generated synthetic sounds to increase the diversity of the training data.  
+
+### Synthetic impulsive sounds
+
+The code to generate synthetic impulsive sounds can be found in `data/synthetic_impulse_sounds/`. You can modify the parameters in `data/synthetic_impulse_sounds/config.py` to change the characteristics of the generated sounds.
+
+We generate 3 types of synthetic impulsive sounds:
+- chirp,
+- harmonic summation,
+- AR filtering of white noise modulated by asymmetric Gaussian envelopes.
+
+The script `data/synthetic_impulse_sounds/generate_dataset.py` generates the synthetic impulsive sounds dataset and saves it in the specified output directory.
+
+### Synthetic stationary backgrounds
+
+We generate synthetic stationary backgrounds by applying various types of augmentations to pink noise to reproduce ventilation/wind-like sounds. The code can be found in `data/synthetic_stationary_sounds/`. You can modify the parameters in `data/synthetic_stationary_sounds/config.py` to change the characteristics of the generated sounds.
+
+We use the `audiomentation` library to apply the augmentations (EQ, gain variations etc.) and in particular reveberberation using the `ApplyImpulseResponse` transform. This transform requires a list of path to impulse response files. In the paper, we used a mix of several datasets (OpenAIR, MARDY, EchoThief, etc.). You will need to provide your own list of impulse response files.
+
+The script `data/synthetic_stationary_backgrounds/generate_dataset.py` generates the synthetic stationary backgrounds dataset and saves it in the specified output directory.
+
 ## Baselines
 
 ### Harmonic-Percussive Source Separation (HPSS) 
@@ -68,3 +97,5 @@ Based on `asteroid`'s implementation of Conv-TasNet \[2\], we adapted the model 
   YEAR = {2025},
 }
 ```
+
+## References

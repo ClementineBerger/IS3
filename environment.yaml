@@ -1,0 +1,28 @@
+name: impulsive_sound_rejection
+# channels:
+#   - pytorch
+#   - nvidia
+#   - conda-forge
+#   - defaults
+dependencies:
+  - python=3.11.5
+  - pip=23.1.2
+  - pip:
+    - ipython==8.19.0
+    - pyyaml==6.0.1
+    - numpy==1.26.3
+    - librosa==0.10.1
+    - matplotlib==3.8.0
+    - seaborn==0.13.1    
+    - ipywidgets==8.1.2
+    - scipy==1.11.3
+    - torch==2.1.2
+    - torchaudio==2.1.2
+    - torchvision==0.16.2
+    - lightning==2.2.1
+    - tensorboard==2.16.2
+    - pandas==2.1.4
+    - oct2py==5.8.0
+    - pydub>=0.25.1
+    - audiomentations==0.38.0
+    - -e .

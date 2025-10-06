@@ -25,5 +25,7 @@ dependencies:
     - oct2py==5.8.0
     - pydub>=0.25.1
     - audiomentations==0.38.0
+    - dash>=2.18.2
+    - resampy>=0.4.2
     - asteroid
     - -e .

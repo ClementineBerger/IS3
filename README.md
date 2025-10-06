@@ -73,7 +73,7 @@ The code to pre-process the existing datasets can be found in `data/preprocess_d
 The idea of this pre-processings is to remove segments containing impulsive events from the background sounds datasets and reconnect the remaining segments.
 To detect those impulsive events, we combine onset detection and Gabor decomposition using the Multi-Gabor dictionaries and procedures described in \[2\] and implemented in the Matlab/Octave toolbox `LTFAT` (https://ltfat.github.io/) with the python library `Oct2Py`. You will therefore need an Octave installation to run the scripts (see `data/preprocess_datasets/README.md`).
 
-- `impulse_dection.py`: define a class to detect impulsive events in an audio signal using onset detection and Gabor decomposition.
+- `impulse_detection.py`: define a class to detect impulsive events in an audio signal using onset detection and Gabor decomposition.
 - `utils.py`: utility functions for loading and saving audio files in a new mirrored folder.
 - `clean.py`: script to remove impulsive events from a given dataset and save the cleaned audio files in a new mirrored folder.
 
@@ -84,6 +84,13 @@ The code to pre-process the existing datasets can be found in `data/preprocess_d
 - `config.py`: configuration file with the paths to the used datasets.
 - `removing_script.py`: script to remove non-impulsive sounds from a given dataset.
 - `utils.py`: utility functions for loading and saving audio files in a new mirrored folder.
+
+### Dataset generation
+
+Once the datasets are prepared, the code to generate the impulsive-stationary sound separation datasets can be found in `data/pre_processing_datasets/generate_datasets`.
+For more details, please refer to the `README.md` file in this folder.
+
+The generation process rely on the taxonomy *SALT: Standardized Audio Scene Taxonomy* \[3\] (https://github.com/tpt-adasp/salt) to organize and unify the various dataset labels, and generate a balanced and diverse dataset.
 
 ## Baselines
 
@@ -129,3 +136,5 @@ If you find this work useful in your research, please consider citing:
 \[1\] R. C. Nongpiur. Impulse noise removal in speech using wavelets. In ICASSP, 2008.
 
 \[2\] Z. Prša, N. Holighaus, and P. Balazs. Fast matching pursuit with multi‐Gabor dictionaries. ACM TOMS, 2021.
+
+\[3\] P. Stamatiadis, M. Olvera, and S. Essid. Salt: Standardized audio event label taxonomy. In DCASE2024.

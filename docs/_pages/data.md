@@ -36,7 +36,7 @@ After this, we unify all the datasets labels to have a common taxonomy using the
 Finally, we generate the mixture scenes by randomly combining background sounds and 0 to 5 isolated impulsive events.
 {: .text-justify}
 
-Here are some statistics about the datasets used in the paper to help see the advantage of the common taxonomy.
+Here are some statistics about the datasets used in the paper that underline the value of using a common taxonomy through SALT.
 {: .text-justify}
 
 # Impulsive sound events
@@ -63,3 +63,15 @@ The label distribution of the background sounds is slightly more balanced than t
 {: .text-justify}
 
 
+# Generated dataset
+
+Finally, we provide some statistics about the generated dataset used in our experiments.
+{: .text-justify}
+
+![image-center](figures/generated_impulse_labels_histogram.png){: .align-center}
+
+![image-center](figures/generated_background_scenes_histogram.png){: .align-center}
+
+![image-center](figures/number_of_impulses_histogram.png){: .align-center}
+
+![image-center](figures/snr_values_histogram.png){: .align-center}

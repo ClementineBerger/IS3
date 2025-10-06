@@ -1,0 +1,275 @@
+standard_scene	dataset_label	dataset
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+outdoor	park	Dcase2018
+outdoor	public_square	Dcase2018
+outdoor	street_pedestrian	Dcase2018
+outdoor	street_traffic	Dcase2018
+outdoor	ResidentialArea	CochlScene
+outdoor	Street	CochlScene
+outdoor	Park	CochlScene
+outdoor	Public square	Cas2023
+outdoor	Urban park	Cas2023
+outdoor	Traffic street	Cas2023
+outdoor	Construction site	Cas2023
+outdoor	market	LitisRouen
+outdoor	busystreet	LitisRouen
+outdoor	ruepietonne	LitisRouen
+outdoor	quietstreet	LitisRouen
+		
+		
+		
+		
+		
+		
+urban/manmade	public_square	Dcase2018
+urban/manmade	street_pedestrian	Dcase2018
+urban/manmade	street_traffic	Dcase2018
+urban/manmade	ResidentialArea	CochlScene
+urban/manmade	Street	CochlScene
+urban/manmade	Public square	Cas2023
+urban/manmade	Traffic street	Cas2023
+urban/manmade	Construction site	Cas2023
+urban/manmade	market	LitisRouen
+urban/manmade	busystreet	LitisRouen
+urban/manmade	ruepietonne	LitisRouen
+urban/manmade	quietstreet	LitisRouen
+		
+		
+		
+		
+		
+construction_site	Construction site	Cas2023
+		
+		
+		
+		
+street	street_traffic	Dcase2018
+street	Street	CochlScene
+street	Traffic street	Cas2023
+street	busystreet	LitisRouen
+street	ruepietonne	LitisRouen
+street	quietstreet	LitisRouen
+		
+pedestrian_street_or_square	street_pedestrian	Dcase2018
+pedestrian_street_or_square	public_square	Dcase2018
+pedestrian_street_or_square	Public square	Cas2023
+pedestrian_street_or_square	ruepietonne	LitisRouen
+		
+busy_street	Traffic street	Cas2023
+busy_street	street_traffic	Dcase2018
+busy_street	busystreet	LitisRouen
+		
+		
+quiet_street	quietstreet	LitisRouen
+		
+		
+		
+residential_area	ResidentialArea	CochlScene
+		
+open-air_market	market	LitisRouen
+		
+		
+		
+rural/natural	park	Dcase2018
+rural/natural	Park	CochlScene
+rural/natural	Urban park	Cas2023
+		
+		
+park	park	Dcase2018
+park	Park	CochlScene
+park	Urban park	Cas2023
+		
+		
+		
+indoor	airport	Dcase2018
+indoor	bus	Dcase2018
+indoor	metro	Dcase2018
+indoor	tram	Dcase2018
+indoor	metro_station	Dcase2018
+indoor	shopping_mall	Dcase2018
+indoor	Kitchen	CochlScene
+indoor	Restaurant	CochlScene
+indoor	Restroom	CochlScene
+indoor	SubwayStation	CochlScene
+indoor	Subway	CochlScene
+indoor	Elevator	CochlScene
+indoor	Cafe	CochlScene
+indoor	Car	CochlScene
+indoor	CrowdedIndoor	CochlScene
+indoor	Bus	CochlScene
+indoor	Airport	Cas2023
+indoor	Metro	Cas2023
+indoor	Bus	Cas2023
+indoor	Restaurant	Cas2023
+indoor	Shopping mall	Cas2023
+indoor	Bar	Cas2023
+indoor	library	Arte
+indoor	cafe	Arte
+indoor	food_court	Arte
+indoor	office	Arte
+indoor	living_room	Arte
+indoor	train_station	Arte
+indoor	street_balcony	Arte
+indoor	dinner_party	Arte
+indoor	hallgare	LitisRouen
+indoor	metro-rouen	LitisRouen
+indoor	car	LitisRouen
+indoor	shop	LitisRouen
+indoor	bus	LitisRouen
+indoor	train-ter	LitisRouen
+indoor	poolhall	LitisRouen
+indoor	train-tgv	LitisRouen
+indoor	kidgame	LitisRouen
+indoor	metro-paris	LitisRouen
+indoor	restaurant	LitisRouen
+indoor	tubestation	LitisRouen
+indoor	cafe	LitisRouen
+indoor	hall	LitisRouen
+indoor	avion	LitisRouen
+indoor	church	Arte
+		
+		
+		
+church	church	Arte
+		
+station_hall	hallgare	LitisRouen
+		
+elevator	Elevator	CochlScene
+		
+		
+transportation	airport	Dcase2018
+transportation	metro_station	Dcase2018
+transportation	SubwayStation	CochlScene
+transportation	Airport	Cas2023
+transportation	train_station	Arte
+transportation	hallgare	LitisRouen
+transportation	tubestation	LitisRouen
+		
+commercial	Restaurant	Cas2023
+commercial	shopping_mall	Dcase2018
+commercial	Restaurant	CochlScene
+commercial	Restroom	CochlScene
+commercial	Cafe	CochlScene
+commercial	Shopping mall	Cas2023
+commercial	cafe	Arte
+commercial	food_court	Arte
+commercial	shop	LitisRouen
+commercial	restaurant	LitisRouen
+commercial	cafe	LitisRouen
+		
+shop	shop	LitisRouen
+		
+recreational	poolhall	LitisRouen
+recreational	kidgame	LitisRouen
+		
+billiard_pool_hall	poolhall	LitisRouen
+		
+kid_game_hall	kidgame	LitisRouen
+		
+		
+
+work_place	library	Arte
+work_place	office	Arte
+work_place	hall	LitisRouen
+		
+student_hall	hall	LitisRouen
+		
+train_station	train_station	Arte
+
+metro_station	metro_station	Dcase2018
+metro_station	SubwayStation	CochlScene
+metro_station	tubestation	LitisRouen
+		
+airport	Airport	Cas2023
+airport	airport	Dcase2018
+		
+		
+office	office	Arte
+		
+
+library	library	Arte
+		
+home	Kitchen	CochlScene
+home	living_room	Arte
+home	street_balcony	Arte
+home	dinner_party	Arte
+		
+street_balcony	street_balcony	Arte
+		
+living_room	living_room	Arte
+		
+kitchen	Kitchen	CochlScene
+
+		
+shopping_mall	shopping_mall	Dcase2018
+shopping_mall	Shopping mall	Cas2023
+		
+cafe_or_restaurant	restaurant	LitisRouen
+cafe_or_restaurant	Restaurant	Cas2023
+cafe_or_restaurant	Restaurant	CochlScene
+cafe_or_restaurant	Restroom	CochlScene
+cafe_or_restaurant	Cafe	CochlScene
+cafe_or_restaurant	cafe	Arte
+cafe_or_restaurant	food_court	Arte
+cafe_or_restaurant	cafe	LitisRouen
+		
+restroom	Restroom	CochlScene
+
+vehicle_interior	bus	Dcase2018
+vehicle_interior	metro	Dcase2018
+vehicle_interior	tram	Dcase2018
+vehicle_interior	Subway	CochlScene
+vehicle_interior	Car	CochlScene
+vehicle_interior	Bus	CochlScene
+vehicle_interior	Metro	Cas2023
+vehicle_interior	Bus	Cas2023
+vehicle_interior	metro-rouen	LitisRouen
+vehicle_interior	car	LitisRouen
+vehicle_interior	bus	LitisRouen
+vehicle_interior	train-ter	LitisRouen
+vehicle_interior	train-tgv	LitisRouen
+vehicle_interior	metro-paris	LitisRouen
+vehicle_interior	avion	LitisRouen
+
+airplane_interior	avion	LitisRouen
+		
+bus_interior	Bus	Cas2023
+bus_interior	bus	Dcase2018
+bus_interior	Bus	CochlScene
+bus_interior	bus	LitisRouen
+		
+		
+		
+train_interior	metro	Dcase2018
+train_interior	tram	Dcase2018
+train_interior	Subway	CochlScene
+train_interior	Metro	Cas2023
+train_interior	metro-rouen	LitisRouen
+train_interior	train-ter	LitisRouen
+train_interior	train-tgv	LitisRouen
+train_interior	metro-paris	LitisRouen
+		
+car_interior	Car	CochlScene
+car_interior	car	LitisRouen
+		
+		
+		
+bar_nightclub_or_concert_hall	Bar	Cas2023
+		
+synthetic_stationary	synthetic_stationary	SyntheticStationaryBackground

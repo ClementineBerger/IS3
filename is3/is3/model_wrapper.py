@@ -10,17 +10,11 @@ import yaml
 
 from model import ImpulseSoundRejection
 
-root_dir = os.path.join(
-  os.environ['AUDIBLE_DATA'],
-  "rendering"
-)
-
 saved_models = os.path.join(
-  root_dir, 
-  "studies",
-  "006_impulsive_sound_rejection",
-  "005_df_model",
-  "results",
+        os.environ['REPO_SAVE'],
+        "is3",
+        "is3",
+        "results",
 )
 
 class ModelWrapper(nn.Module):

@@ -11,7 +11,7 @@ from typing import Tuple, Union, Iterable, Callable, Optional
 import math
 import os
 
-from rendering.dpnmm.analysis import pad_for_stft, stft, istft
+from is3.analysis import pad_for_stft, stft, istft
 
 class ApplyDF(nn.Module):
   """ Apply deepfiltering to a spectrogram."""

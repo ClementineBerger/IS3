@@ -137,10 +137,10 @@ def main(conf_id, dataset, start, end):
   }
   
   saving_dir = os.path.join(
-    os.environ["RENDERING_SAVE"],
-    "studies",
-    "006_impulsive_sound_rejection",
-    "008_wavelet_baseline",
+    os.environ['REPO_SAVE'],
+    "is3",
+    "baselines",
+    "wavelet",
     "results",
     conf_id,
     "evaluation"    

@@ -19,20 +19,6 @@ saved_models = os.path.join(
   "results"
 )
 
-# jz_path_to_models = os.path.join(
-#   os.environ["HOME"],
-#   "mnt",
-#   "scratch_jeanzay",
-#   "audible",
-#   "protected",
-#   "dev",
-#   "rendering",
-#   "studies",
-#   "006_impulsive_sound_rejection",
-#   "012_convtasnet",
-#   "results", 
-# ) 
-
 class ModelWrapper(nn.Module):
   def __init__(self, conf_name, job_id=None):
     super().__init__()

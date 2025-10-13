@@ -170,10 +170,9 @@ def main(conf_id, dataset):
   }
   
   saving_dir = os.path.join(
-    os.environ["RENDERING_SAVE"],
-    "studies",
-    "006_impulsive_sound_rejection",
-    "005_df_model",
+    os.environ['REPO_SAVE'],
+    "is3",
+    "is3",
     "results",
     model.conf["conf_id"],
     "evaluation"    

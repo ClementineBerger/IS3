@@ -29,19 +29,8 @@ parser.add_argument("--dataset", default="original", type=str,  #original or ran
                     help="Using the original (normalized) test set or the random gain dataset")
 
 
-RENDERING_DATA = os.path.join(
-    os.environ['AUDIBLE_DATA'],
-    "rendering",
-    "datasets"
-)
-
-# RENDERING_DATA = os.path.join(
-#   os.environ["MY_DATA"],
-# )
-
 dataset_dir = os.path.join(
-    RENDERING_DATA,
-    "impulsive_sound_rejection",
+    os.environ["DATA_DIR"],
     "ImpulseSeparationScenes_reverb"
 )
 

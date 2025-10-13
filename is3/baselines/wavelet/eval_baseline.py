@@ -33,19 +33,8 @@ parser.add_argument("--start", default=10,
 parser.add_argument("--end", default=20,
                     help="Ending index in the metadata, not included")
 
-RENDERING_DATA = os.path.join(
-    os.environ['AUDIBLE_DATA'],
-    "rendering",
-    "datasets"
-)
-
-# RENDERING_DATA = os.path.join(
-#   os.environ['MY_DATA']
-# )
-
 dataset_dir = os.path.join(
-    RENDERING_DATA,
-    "impulsive_sound_rejection",
+    os.environ["DATA_DIR"],
     "ImpulseSeparationScenes_reverb"
 )
 

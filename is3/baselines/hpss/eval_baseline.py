@@ -27,20 +27,9 @@ parser.add_argument("--conf_id", default="001", type=str,  # change default for 
 parser.add_argument("--dataset", default="random", type=str,  #original or random
                     help="Using the original (normalized) test set or the random gain dataset")
 
-RENDERING_DATA = os.path.join(
-    os.environ['AUDIBLE_DATA'],
-    "rendering",
-    "datasets"
-)
-
-# RENDERING_DATA = os.path.join(
-#   os.environ['MY_DATA']
-# )
-
 dataset_dir = os.path.join(
-    RENDERING_DATA,
-    "impulsive_sound_rejection",
-    "ImpulseSeparationScenes"  #_reverb
+    os.environ["DATA_DIR"],
+    "ImpulseSeparationScenes_reverb"
 )
 
 csv_file = os.path.join(dataset_dir, "metadata.csv")

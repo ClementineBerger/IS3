@@ -4,11 +4,14 @@
 
 ## py-salt
 
-The generation process relies on the taxonomy *SALT: Standardized Audio Scene Taxonomy* \[3\] to map and unify the labels of the various datasets to a chosen set of labels. This helps managing the diversity of the datasets and generating a balanced dataset.
+The generation process relies on the taxonomy *SALT: Standardized Audio Scene Taxonomy* \[3\] to map and unify the labels of the various datasets to a chosen set of standardized labels. This helps managing the diversity of the datasets labels and generating a balanced dataset.
 
-You will need to install the `py-salt` library (https://github.com/tpt-adasp/salt) by cloning it and follow the procedure described in `add_new_dataset_tutorial.md`. The `.tsv` files in the `assets` are provided as examples and can be modified to include different datasets.
 
-The script `scene_mapping.py` is a modified version of the `py-salt` `event_mapping.py` to handle scene mapping. This should be added to the `py-salt` package under `salt/py-salt/py_salt/scene_mapping.py`.
+**Complete code not available yet. Work in progress.**
+
+<!-- You will need to install the `py-salt` library (https://github.com/tpt-adasp/salt) by cloning it and follow the procedure described in `add_new_dataset_tutorial.md`. The `.tsv` files in the `assets` are provided as examples and can be modified to include different datasets. -->
+
+<!-- The script `scene_mapping.py` is a modified version of the `py-salt` `event_mapping.py` to handle scene mapping. This should be added to the `py-salt` package under `salt/py-salt/py_salt/scene_mapping.py`. -->
 
 ## Data loading
 

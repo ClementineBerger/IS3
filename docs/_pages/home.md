@@ -10,7 +10,8 @@ header:
 excerpt: #"title"
 ---
 
-You will find audio examples [here](./audio.md).
+You will find audio examples [here](./audio.md) and some statistics about the datasets used for generation as well as the obtained dataset [here](./data.md).
+{: .text-justify}
 
 # Abstract
 

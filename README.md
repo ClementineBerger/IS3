@@ -5,6 +5,8 @@
 Welcome to the IS³ repository! This repository contains the code and resources for the paper:
 "IS³ : Generic Impulsive-Stationary Sound Separation in Acoustic Scenes using Deep Filtering", presented at WASPAA 2025.
 
+*This repository is a work in progress and some components are not yet complete. Please contact us for more information on anything specific.*
+
 ## Abstract
 
 We are interested in audio systems capable of performing a differentiated processing of stationary backgrounds and isolated acoustic events within an acoustic scene, whether for applying specific processing methods to each part or for focusing solely on one while ignoring the other. Such systems have applications in real-world scenarios, including robust adaptive audio rendering systems (e.g., EQ or compression), plosive attenuation in voice mixing, noise suppression or reduction, robust acoustic event classification or even bioacoustics.
@@ -34,7 +36,7 @@ You need to set the following environment variables:
 
 ## Data generation
 
-We provide a data generation pipeline that creates training, validation and test sets for the impulsive-stationary sound separation task. The pipeline uses existing datasets of isolated impulsive sounds and stationary sounds, combines them with various augmentations and generates mixtures with their corresponding ground truth sources.
+We provide a data generation pipeline that creates training, validation and test sets for the impulsive-stationary sound separation task. The pipeline uses existing datasets of isolated sound events and acoustic scenes, combines them with various augmentations and generates mixtures with their corresponding ground truth sources.
 
 Here are the datasets we used in the paper (you can use your own datasets as well):
 - Background sounds: Dcase2018 Task 1, CochlScene, Arte, Cas2023, LitisRouen

@@ -9,7 +9,6 @@ def main(data_dir):
     data_wrappers.ReaLISED(os.path.join(data_dir, 'realised')).generate_metadata_file()
     data_wrappers.VocalSound(os.path.join(data_dir, 'vocalsound')).generate_metadata_file()
     data_wrappers.Nonspeech7k(os.path.join(data_dir, 'nonspeech7k')).generate_metadata_file()
-    data_wrappers.FreesoundOneShotPercussive(os.path.join(data_dir, 'one-shot_percussive_sounds')).generate_metadata_file()
 
     # Generate metadata files for background datasets
     data_wrappers.Arte(os.path.join(data_dir, 'arte')).generate_metadata_file()

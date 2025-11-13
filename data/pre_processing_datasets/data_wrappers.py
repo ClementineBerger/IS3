@@ -27,6 +27,7 @@ class DatasetManager(object):
 
   def __init__(self, metadata_file_path, load_metadata=True):
     self._metadata_file_path = metadata_file_path
+    self._pdf_metadata = None
 
     # Pandas dataframe stored in metadata_file_path
     if os.path.isfile(self._metadata_file_path) and load_metadata:

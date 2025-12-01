@@ -214,8 +214,7 @@ class DatasetManager(object):
       # test first element (index = 0)
       elem = pd_dataframe[col][0]
       if isinstance(elem, str):
-        if os.path.isfile(elem) or \
-           os.path.isfile(self.get_abs_path(elem)):
+        if os.path.isfile(elem) or os.path.isfile(self.get_abs_path(elem)):
           column_names.append(col)
 
     return column_names
@@ -553,8 +552,7 @@ class ESC50(DatasetManager):
     )
 
     # --- Add file path info
-    pdf_metadata = pd.merge(
-        pdf_metadata, file_paths, how='left', on='file_id')
+    pdf_metadata = pd.merge(file_paths, pdf_metadata, how='left', on='file_id')
 
     # --- Add audio-specific metadata
     pdf_metadata = self._add_audio_metadata_to_pdf_metadata(pdf_metadata)
@@ -1100,6 +1098,9 @@ class Dcase2018(DatasetManager):
 
       file_path = os.path.normpath(
         os.path.join(self._root_dir, file_rpath))
+      
+      if not os.path.isfile(file_path):
+         continue
 
       # - Get audio metadata
       md_dic = self.get_audio_file_metadata(file_path)

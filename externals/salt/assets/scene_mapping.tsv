@@ -1,0 +1,619 @@
+standard_scene	dataset_label	dataset
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+outdoor	beach	TutAcousticScenes2017
+outdoor	city_center	TutAcousticScenes2017
+outdoor	forest_path	TutAcousticScenes2017
+outdoor	park	TutAcousticScenes2017
+outdoor	residential_area	TutAcousticScenes2017
+outdoor	park	Dcase2018
+outdoor	public_square	Dcase2018
+outdoor	street_pedestrian	Dcase2018
+outdoor	street_traffic	Dcase2018
+outdoor	park	TauUas2020MobileDevelopment
+outdoor	park	TauUas2019OpensetDevelopment
+outdoor	public_square	TauUas2020MobileDevelopment
+outdoor	public_square	TauUas2019OpensetDevelopment
+outdoor	street_pedestrian	TauUas2020MobileDevelopment
+outdoor	street_pedestrian	TauUas2019OpensetDevelopment
+outdoor	street_traffic	TauUas2020MobileDevelopment
+outdoor	street_traffic	TauUas2019OpensetDevelopment
+outdoor	beach	TUTAcousticScenes2017Development
+outdoor	city_center	TUTAcousticScenes2017Development
+outdoor	forest_path	TUTAcousticScenes2017Development
+outdoor	park	TUTAcousticScenes2017Development
+outdoor	residential_area	TUTAcousticScenes2017Development
+outdoor	busystreet	IEEAASPPublic
+outdoor	openairmarket	IEEAASPPublic
+outdoor	park	IEEAASPPublic
+outdoor	quietstreet	IEEAASPPublic
+outdoor	ResidentialArea	CochlScene
+outdoor	Street	CochlScene
+outdoor	Park	CochlScene
+outdoor	Public square	Cas2023
+outdoor	Urban park	Cas2023
+outdoor	Traffic street	Cas2023
+outdoor	Construction site	Cas2023
+outdoor	street	AudibleBackgrounds
+outdoor	beach	AudibleBackgrounds
+outdoor	open_market	IEEAASPPublic
+outdoor	park	AudibleBackgrounds
+outdoor	lakeside	AudibleBackgrounds
+outdoor	street_pedestrian	AudibleBackgrounds
+outdoor	residential_area	AudibleBackgrounds
+outdoor	park	Archeo
+outdoor	residential_area	Archeo
+outdoor	open-air_market	Archeo
+outdoor	park	JointSoundSceneAndEvent
+outdoor	busystreet	JointSoundSceneAndEvent
+outdoor	openairmarket	JointSoundSceneAndEvent
+outdoor	quietstreet	JointSoundSceneAndEvent
+outdoor	street	SPASS
+outdoor	park	SPASS
+outdoor	waterfront	SPASS
+outdoor	square	SPASS
+outdoor	market	SPASS
+outdoor	market	LitisRouen
+outdoor	busystreet	LitisRouen
+outdoor	ruepietonne	LitisRouen
+outdoor	quietstreet	LitisRouen
+outdoor	farm	OpenWindow
+		
+		
+		
+		
+		
+		
+urban/manmade	city_center	TUTAcousticScenes2017Development
+urban/manmade	public_square	TauUas2020MobileDevelopment
+urban/manmade	public_square	TauUas2019OpensetDevelopment
+urban/manmade	city_center	TutAcousticScenes2017
+urban/manmade	residential_area	TutAcousticScenes2017
+urban/manmade	public_square	Dcase2018
+urban/manmade	street_pedestrian	Dcase2018
+urban/manmade	street_traffic	Dcase2018
+urban/manmade	street_pedestrian	TauUas2020MobileDevelopment
+urban/manmade	street_pedestrian	TauUas2019OpensetDevelopment
+urban/manmade	street_traffic	TauUas2020MobileDevelopment
+urban/manmade	street_traffic	TauUas2019OpensetDevelopment
+urban/manmade	residential_area	TUTAcousticScenes2017Development
+urban/manmade	busystreet	IEEAASPPublic
+urban/manmade	openairmarket	IEEAASPPublic
+urban/manmade	quietstreet	IEEAASPPublic
+urban/manmade	ResidentialArea	CochlScene
+urban/manmade	Street	CochlScene
+urban/manmade	Public square	Cas2023
+urban/manmade	Traffic street	Cas2023
+urban/manmade	Construction site	Cas2023
+urban/manmade	street	AudibleBackgrounds
+urban/manmade	open_market	IEEAASPPublic
+urban/manmade	street_pedestrian	AudibleBackgrounds
+urban/manmade	residential_area	AudibleBackgrounds
+urban/manmade	residential_area	Archeo
+urban/manmade	open-air_market	Archeo
+urban/manmade	busystreet	JointSoundSceneAndEvent
+urban/manmade	openairmarket	JointSoundSceneAndEvent
+urban/manmade	quietstreet	JointSoundSceneAndEvent
+urban/manmade	street	SPASS
+urban/manmade	square	SPASS
+urban/manmade	market	SPASS
+urban/manmade	market	LitisRouen
+urban/manmade	busystreet	LitisRouen
+urban/manmade	ruepietonne	LitisRouen
+urban/manmade	quietstreet	LitisRouen
+		
+		
+		
+		
+		
+construction_site	Construction site	Cas2023
+		
+		
+		
+		
+street	street_traffic	Dcase2018
+street	street_traffic	TauUas2020MobileDevelopment
+street	street_traffic	TauUas2019OpensetDevelopment
+street	busystreet	IEEAASPPublic
+street	quietstreet	IEEAASPPublic
+street	Street	CochlScene
+street	Traffic street	Cas2023
+street	street	AudibleBackgrounds
+street	busystreet	JointSoundSceneAndEvent
+street	quietstreet	JointSoundSceneAndEvent
+street	street	SPASS
+street	busystreet	LitisRouen
+street	ruepietonne	LitisRouen
+street	quietstreet	LitisRouen
+		
+pedestrian_street_or_square	square	SPASS
+pedestrian_street_or_square	street_pedestrian	Dcase2018
+pedestrian_street_or_square	street_pedestrian	TauUas2020MobileDevelopment
+pedestrian_street_or_square	street_pedestrian	TauUas2019OpensetDevelopment
+pedestrian_street_or_square	street_pedestrian	AudibleBackgrounds
+pedestrian_street_or_square	public_square	Dcase2018
+pedestrian_street_or_square	public_square	TauUas2020MobileDevelopment
+pedestrian_street_or_square	public_square	TauUas2019OpensetDevelopment
+pedestrian_street_or_square	Public square	Cas2023
+pedestrian_street_or_square	ruepietonne	LitisRouen
+		
+busy_street	Traffic street	Cas2023
+busy_street	street_traffic	Dcase2018
+busy_street	street_traffic	TauUas2020MobileDevelopment
+busy_street	street_traffic	TauUas2019OpensetDevelopment
+busy_street	busystreet	IEEAASPPublic
+busy_street	busystreet	JointSoundSceneAndEvent
+busy_street	busystreet	LitisRouen
+		
+		
+quiet_street	quietstreet	IEEAASPPublic
+quiet_street	quietstreet	JointSoundSceneAndEvent
+quiet_street	quietstreet	LitisRouen
+		
+		
+city_center	city_center	TUTAcousticScenes2017Development
+city_center	city_center	TutAcousticScenes2017
+		
+residential_area	residential_area	TutAcousticScenes2017
+residential_area	residential_area	TUTAcousticScenes2017Development
+residential_area	ResidentialArea	CochlScene
+residential_area	residential_area	AudibleBackgrounds
+residential_area	residential_area	Archeo
+		
+open-air_market	openairmarket	IEEAASPPublic
+open-air_market	open_market	IEEAASPPublic
+open-air_market	open-air_market	Archeo
+open-air_market	openairmarket	JointSoundSceneAndEvent
+open-air_market	market	SPASS
+open-air_market	market	LitisRouen
+		
+		
+		
+rural/natural	park	SPASS
+rural/natural	park	TUTAcousticScenes2017Development
+rural/natural	park	TauUas2020MobileDevelopment
+rural/natural	park	TauUas2019OpensetDevelopment
+rural/natural	beach	TutAcousticScenes2017
+rural/natural	forest_path	TutAcousticScenes2017
+rural/natural	park	TutAcousticScenes2017
+rural/natural	park	Dcase2018
+rural/natural	beach	TUTAcousticScenes2017Development
+rural/natural	forest_path	TUTAcousticScenes2017Development
+rural/natural	park	IEEAASPPublic
+rural/natural	Park	CochlScene
+rural/natural	Urban park	Cas2023
+rural/natural	beach	AudibleBackgrounds
+rural/natural	park	AudibleBackgrounds
+rural/natural	lakeside	AudibleBackgrounds
+rural/natural	park	Archeo
+rural/natural	park	JointSoundSceneAndEvent
+rural/natural	waterfront	SPASS
+rural/natural	farm	OpenWindow
+		
+farm	farm	OpenWindow
+		
+waterfront	waterfront	SPASS
+		
+lakeside	lakeside	AudibleBackgrounds
+		
+forest	forest_path	TUTAcousticScenes2017Development
+forest	forest_path	TutAcousticScenes2017
+		
+beach	beach	TutAcousticScenes2017
+beach	beach	TUTAcousticScenes2017Development
+beach	beach	AudibleBackgrounds
+		
+park	park	TUTAcousticScenes2017Development
+park	park	TutAcousticScenes2017
+park	park	Dcase2018
+park	park	TauUas2020MobileDevelopment
+park	park	TauUas2019OpensetDevelopment
+park	park	IEEAASPPublic
+park	Park	CochlScene
+park	Urban park	Cas2023
+park	park	AudibleBackgrounds
+park	park	Archeo
+park	park	JointSoundSceneAndEvent
+park	park	SPASS
+		
+		
+		
+indoor	bus	TutAcousticScenes2017
+indoor	cafe/restaurant	TutAcousticScenes2017
+indoor	car	TutAcousticScenes2017
+indoor	grocery_store	TutAcousticScenes2017
+indoor	home	TutAcousticScenes2017
+indoor	library	TutAcousticScenes2017
+indoor	metro_station	TutAcousticScenes2017
+indoor	office	TutAcousticScenes2017
+indoor	train	TutAcousticScenes2017
+indoor	tram	TutAcousticScenes2017
+indoor	airport	Dcase2018
+indoor	bus	Dcase2018
+indoor	metro	Dcase2018
+indoor	tram	Dcase2018
+indoor	metro_station	Dcase2018
+indoor	shopping_mall	Dcase2018
+indoor	airport	TauUas2019OpensetDevelopment
+indoor	bus	TauUas2019OpensetDevelopment
+indoor	airport	TauUas2020MobileDevelopment
+indoor	bus	TauUas2020MobileDevelopment
+indoor	metro	TauUas2020MobileDevelopment
+indoor	metro	TauUas2019OpensetDevelopment
+indoor	metro_station	TauUas2020MobileDevelopment
+indoor	metro_station	TauUas2019OpensetDevelopment
+indoor	shopping_mall	TauUas2020MobileDevelopment
+indoor	shopping_mall	TauUas2019OpensetDevelopment
+indoor	tram	TauUas2020MobileDevelopment
+indoor	tram	TauUas2019OpensetDevelopment
+indoor	bus	TUTAcousticScenes2017Development
+indoor	cafe/restaurant	TUTAcousticScenes2017Development
+indoor	car	TUTAcousticScenes2017Development
+indoor	grocery_store	TUTAcousticScenes2017Development
+indoor	home	TUTAcousticScenes2017Development
+indoor	library	TUTAcousticScenes2017Development
+indoor	metro_station	TUTAcousticScenes2017Development
+indoor	office	TUTAcousticScenes2017Development
+indoor	train	TUTAcousticScenes2017Development
+indoor	tram	TUTAcousticScenes2017Development
+indoor	bus	TUTAcousticScenes2017Development
+indoor	office	IEEAASPPublic
+indoor	restaurant	IEEAASPPublic
+indoor	supermarket	IEEAASPPublic
+indoor	tube	IEEAASPPublic
+indoor	tubestation	IEEAASPPublic
+indoor	Kitchen	CochlScene
+indoor	Restaurant	CochlScene
+indoor	Restroom	CochlScene
+indoor	SubwayStation	CochlScene
+indoor	Subway	CochlScene
+indoor	Elevator	CochlScene
+indoor	Cafe	CochlScene
+indoor	Car	CochlScene
+indoor	CrowdedIndoor	CochlScene
+indoor	Bus	CochlScene
+indoor	Airport	Cas2023
+indoor	Metro	Cas2023
+indoor	Bus	Cas2023
+indoor	Restaurant	Cas2023
+indoor	Shopping mall	Cas2023
+indoor	Bar	Cas2023
+indoor	Truck	VehicleInteriorSound
+indoor	Bus	VehicleInteriorSound
+indoor	Sports car	VehicleInteriorSound
+indoor	Crossover	VehicleInteriorSound
+indoor	Car (C Class - 4K)	VehicleInteriorSound
+indoor	Pickup	VehicleInteriorSound
+indoor	Jeep	VehicleInteriorSound
+indoor	Minibus	VehicleInteriorSound
+indoor	library	Arte
+indoor	cafe	Arte
+indoor	food_court	Arte
+indoor	office	Arte
+indoor	living_room	Arte
+indoor	train_station	Arte
+indoor	street_balcony	Arte
+indoor	dinner_party	Arte
+indoor	cafe_restaurant	AudibleBackgrounds
+indoor	train_interior	AudibleBackgrounds
+indoor	bus_interior	AudibleBackgrounds
+indoor	airplane_interior	AudibleBackgrounds
+indoor	office	AudibleBackgrounds
+indoor	airport	AudibleBackgrounds
+indoor	metro_interior	AudibleBackgrounds
+indoor	shopping_center	AudibleBackgrounds
+indoor	bathroom	AudibleBackgrounds
+indoor	kitchen	AudibleBackgrounds
+indoor	car_interior	AudibleBackgrounds
+indoor	library	AudibleBackgrounds
+indoor	metro_station	AudibleBackgrounds
+indoor	supermarket	AudibleBackgrounds
+indoor	sports_stadium	AudibleBackgrounds
+indoor	office	JointSoundSceneAndEvent
+indoor	tube	JointSoundSceneAndEvent
+indoor	bus	JointSoundSceneAndEvent
+indoor	supermarket	JointSoundSceneAndEvent
+indoor	tubestation	JointSoundSceneAndEvent
+indoor	restaurant	JointSoundSceneAndEvent
+indoor	hallgare	LitisRouen
+indoor	metro-rouen	LitisRouen
+indoor	car	LitisRouen
+indoor	shop	LitisRouen
+indoor	bus	LitisRouen
+indoor	train-ter	LitisRouen
+indoor	poolhall	LitisRouen
+indoor	train-tgv	LitisRouen
+indoor	kidgame	LitisRouen
+indoor	metro-paris	LitisRouen
+indoor	restaurant	LitisRouen
+indoor	tubestation	LitisRouen
+indoor	cafe	LitisRouen
+indoor	hall	LitisRouen
+indoor	avion	LitisRouen
+indoor	church	Arte
+indoor	office	OpenWindow
+		
+		
+		
+church	church	Arte
+		
+station_hall	hallgare	LitisRouen
+		
+elevator	Elevator	CochlScene
+		
+		
+transportation	metro_station	TauUas2020MobileDevelopment
+transportation	metro_station	TauUas2019OpensetDevelopment
+transportation	metro_station	TutAcousticScenes2017
+transportation	airport	Dcase2018
+transportation	airport	TauUas2019OpensetDevelopment
+transportation	airport	TauUas2020MobileDevelopment
+transportation	metro_station	Dcase2018
+transportation	metro_station	TUTAcousticScenes2017Development
+transportation	tubestation	IEEAASPPublic
+transportation	SubwayStation	CochlScene
+transportation	Airport	Cas2023
+transportation	train_station	Arte
+transportation	airport	AudibleBackgrounds
+transportation	metro_station	AudibleBackgrounds
+transportation	tubestation	JointSoundSceneAndEvent
+transportation	hallgare	LitisRouen
+transportation	tubestation	LitisRouen
+		
+commercial	Restaurant	Cas2023
+commercial	cafe/restaurant	TUTAcousticScenes2017Development
+commercial	cafe/restaurant	TutAcousticScenes2017
+commercial	grocery_store	TutAcousticScenes2017
+commercial	shopping_mall	Dcase2018
+commercial	shopping_mall	TauUas2020MobileDevelopment
+commercial	shopping_mall	TauUas2019OpensetDevelopment
+commercial	grocery_store	TUTAcousticScenes2017Development
+commercial	restaurant	IEEAASPPublic
+commercial	supermarket	IEEAASPPublic
+commercial	Restaurant	CochlScene
+commercial	Restroom	CochlScene
+commercial	Cafe	CochlScene
+commercial	Shopping mall	Cas2023
+commercial	cafe	Arte
+commercial	food_court	Arte
+commercial	cafe_restaurant	AudibleBackgrounds
+commercial	shopping_center	AudibleBackgrounds
+commercial	supermarket	AudibleBackgrounds
+commercial	supermarket	JointSoundSceneAndEvent
+commercial	restaurant	JointSoundSceneAndEvent
+commercial	shop	LitisRouen
+commercial	restaurant	LitisRouen
+commercial	cafe	LitisRouen
+		
+shop	shop	LitisRouen
+		
+recreational	poolhall	LitisRouen
+recreational	kidgame	LitisRouen
+		
+billiard_pool_hall	poolhall	LitisRouen
+		
+kid_game_hall	kidgame	LitisRouen
+		
+		
+supermarket	supermarket	IEEAASPPublic
+supermarket	supermarket	AudibleBackgrounds
+supermarket	supermarket	JointSoundSceneAndEvent
+		
+work_place	office	OpenWindow
+work_place	library	AudibleBackgrounds
+work_place	library	Arte
+work_place	library	TUTAcousticScenes2017Development
+work_place	library	TutAcousticScenes2017
+work_place	office	TutAcousticScenes2017
+work_place	office	TUTAcousticScenes2017Development
+work_place	office	IEEAASPPublic
+work_place	office	Arte
+work_place	office	AudibleBackgrounds
+work_place	office	JointSoundSceneAndEvent
+work_place	hall	LitisRouen
+		
+student_hall	hall	LitisRouen
+		
+train_station	train_station	Arte
+		
+metro_station	metro_station	TauUas2020MobileDevelopment
+metro_station	metro_station	TauUas2019OpensetDevelopment
+metro_station	metro_station	TutAcousticScenes2017
+metro_station	metro_station	Dcase2018
+metro_station	metro_station	TUTAcousticScenes2017Development
+metro_station	tubestation	IEEAASPPublic
+metro_station	SubwayStation	CochlScene
+metro_station	train_interior	AudibleBackgrounds
+metro_station	metro_station	AudibleBackgrounds
+metro_station	tubestation	JointSoundSceneAndEvent
+metro_station	tubestation	LitisRouen
+		
+airport	Airport	Cas2023
+airport	airport	TauUas2019OpensetDevelopment
+airport	airport	TauUas2020MobileDevelopment
+airport	airport	Dcase2018
+airport	airport	AudibleBackgrounds
+		
+		
+office	office	TUTAcousticScenes2017Development
+office	office	TutAcousticScenes2017
+office	office	IEEAASPPublic
+office	office	Arte
+office	office	AudibleBackgrounds
+office	office	JointSoundSceneAndEvent
+office	office	OpenWindow
+		
+		
+library	library	AudibleBackgrounds
+library	library	TutAcousticScenes2017
+library	library	TUTAcousticScenes2017Development
+library	library	Arte
+		
+home	home	TutAcousticScenes2017
+home	home	TUTAcousticScenes2017Development
+home	Kitchen	CochlScene
+home	living_room	Arte
+home	street_balcony	Arte
+home	dinner_party	Arte
+home	bathroom	AudibleBackgrounds
+home	kitchen	AudibleBackgrounds
+		
+bathroom	bathroom	AudibleBackgrounds
+		
+street_balcony	street_balcony	Arte
+		
+living_room	living_room	Arte
+		
+kitchen	Kitchen	CochlScene
+kitchen	kitchen	AudibleBackgrounds
+		
+grocery_store	grocery_store	TUTAcousticScenes2017Development
+grocery_store	grocery_store	TutAcousticScenes2017
+		
+shopping_mall	shopping_mall	Dcase2018
+shopping_mall	shopping_mall	TauUas2020MobileDevelopment
+shopping_mall	shopping_mall	TauUas2019OpensetDevelopment
+shopping_mall	Shopping mall	Cas2023
+shopping_mall	shopping_center	AudibleBackgrounds
+		
+cafe_or_restaurant	restaurant	LitisRouen
+cafe_or_restaurant	Restaurant	Cas2023
+cafe_or_restaurant	cafe/restaurant	TutAcousticScenes2017
+cafe_or_restaurant	cafe/restaurant	TUTAcousticScenes2017Development
+cafe_or_restaurant	restaurant	IEEAASPPublic
+cafe_or_restaurant	Restaurant	CochlScene
+cafe_or_restaurant	Restroom	CochlScene
+cafe_or_restaurant	Cafe	CochlScene
+cafe_or_restaurant	cafe	Arte
+cafe_or_restaurant	food_court	Arte
+cafe_or_restaurant	cafe_restaurant	AudibleBackgrounds
+cafe_or_restaurant	restaurant	JointSoundSceneAndEvent
+cafe_or_restaurant	cafe	LitisRouen
+		
+restroom	Restroom	CochlScene
+		
+vehicle_interior	car	TUTAcousticScenes2017Development
+vehicle_interior	bus	TUTAcousticScenes2017Development
+vehicle_interior	bus	TauUas2019OpensetDevelopment
+vehicle_interior	bus	TauUas2020MobileDevelopment
+vehicle_interior	bus	TutAcousticScenes2017
+vehicle_interior	car	TutAcousticScenes2017
+vehicle_interior	train	TutAcousticScenes2017
+vehicle_interior	tram	TutAcousticScenes2017
+vehicle_interior	bus	Dcase2018
+vehicle_interior	metro	Dcase2018
+vehicle_interior	tram	Dcase2018
+vehicle_interior	metro	TauUas2020MobileDevelopment
+vehicle_interior	metro	TauUas2019OpensetDevelopment
+vehicle_interior	tram	TauUas2020MobileDevelopment
+vehicle_interior	tram	TauUas2019OpensetDevelopment
+vehicle_interior	train	TUTAcousticScenes2017Development
+vehicle_interior	tram	TUTAcousticScenes2017Development
+vehicle_interior	bus	TUTAcousticScenes2017Development
+vehicle_interior	tube	IEEAASPPublic
+vehicle_interior	Subway	CochlScene
+vehicle_interior	Car	CochlScene
+vehicle_interior	Bus	CochlScene
+vehicle_interior	Metro	Cas2023
+vehicle_interior	Bus	Cas2023
+vehicle_interior	Truck	VehicleInteriorSound
+vehicle_interior	Bus	VehicleInteriorSound
+vehicle_interior	Sports car	VehicleInteriorSound
+vehicle_interior	Crossover	VehicleInteriorSound
+vehicle_interior	Car (C Class - 4K)	VehicleInteriorSound
+vehicle_interior	Pickup	VehicleInteriorSound
+vehicle_interior	Jeep	VehicleInteriorSound
+vehicle_interior	Minibus	VehicleInteriorSound
+vehicle_interior	train_interior	AudibleBackgrounds
+vehicle_interior	bus_interior	AudibleBackgrounds
+vehicle_interior	airplane_interior	AudibleBackgrounds
+vehicle_interior	metro_interior	AudibleBackgrounds
+vehicle_interior	car_interior	AudibleBackgrounds
+vehicle_interior	tube	JointSoundSceneAndEvent
+vehicle_interior	bus	JointSoundSceneAndEvent
+vehicle_interior	metro-rouen	LitisRouen
+vehicle_interior	car	LitisRouen
+vehicle_interior	bus	LitisRouen
+vehicle_interior	train-ter	LitisRouen
+vehicle_interior	train-tgv	LitisRouen
+vehicle_interior	metro-paris	LitisRouen
+vehicle_interior	avion	LitisRouen
+		
+airplane_interior	airplane_interior	AudibleBackgrounds
+airplane_interior	avion	LitisRouen
+		
+bus_interior	Bus	Cas2023
+bus_interior	bus	TUTAcousticScenes2017Development
+bus_interior	bus	TUTAcousticScenes2017Development
+bus_interior	bus	TauUas2019OpensetDevelopment
+bus_interior	bus	TauUas2020MobileDevelopment
+bus_interior	bus	TutAcousticScenes2017
+bus_interior	bus	Dcase2018
+bus_interior	Bus	CochlScene
+bus_interior	Bus	VehicleInteriorSound
+bus_interior	Minibus	VehicleInteriorSound
+bus_interior	bus_interior	AudibleBackgrounds
+bus_interior	bus	JointSoundSceneAndEvent
+bus_interior	bus	LitisRouen
+		
+		
+		
+		
+train_interior	train	TUTAcousticScenes2017Development
+train_interior	train	TutAcousticScenes2017
+train_interior	tram	TutAcousticScenes2017
+train_interior	metro	Dcase2018
+train_interior	tram	Dcase2018
+train_interior	metro	TauUas2020MobileDevelopment
+train_interior	metro	TauUas2019OpensetDevelopment
+train_interior	tram	TauUas2020MobileDevelopment
+train_interior	tram	TauUas2019OpensetDevelopment
+train_interior	tram	TUTAcousticScenes2017Development
+train_interior	tube	IEEAASPPublic
+train_interior	Subway	CochlScene
+train_interior	Metro	Cas2023
+train_interior	train_interior	AudibleBackgrounds
+train_interior	metro_interior	AudibleBackgrounds
+train_interior	tube	JointSoundSceneAndEvent
+train_interior	metro-rouen	LitisRouen
+train_interior	train-ter	LitisRouen
+train_interior	train-tgv	LitisRouen
+train_interior	metro-paris	LitisRouen
+		
+car_interior	Car	CochlScene
+car_interior	car	TutAcousticScenes2017
+car_interior	car	TUTAcousticScenes2017Development
+car_interior	Sports car	VehicleInteriorSound
+car_interior	Crossover	VehicleInteriorSound
+car_interior	Car (C Class - 4K)	VehicleInteriorSound
+car_interior	Pickup	VehicleInteriorSound
+car_interior	Jeep	VehicleInteriorSound
+car_interior	car_interior	AudibleBackgrounds
+car_interior	car	LitisRouen
+		
+truck_interior	Truck	VehicleInteriorSound
+		
+unknown	unknown	TauUas2019OpensetDevelopment
+unknown		Archeo
+		
+		
+bar_nightclub_or_concert_hall	Bar	Cas2023
+		
+sports_stadium	sports_stadium	AudibleBackgrounds
+		
+synthetic_stationary	synthetic_stationary	SyntheticStationaryBackground

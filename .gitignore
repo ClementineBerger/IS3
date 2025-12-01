@@ -1,1 +1,5 @@
 data/pre_processing_datasets/testing.ipynb
+__pycache__/
+*.pyc
+*.pyo
+testing.ipynb

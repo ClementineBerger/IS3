@@ -1,0 +1,142 @@
+standard_event	dataset_label	dataset
+		
+1-shot	1-shot	FreesoundOneShotPercussive
+		
+alarm_clock_ringing	clock_alarm	ESC50
+		
+alarm_signal	car_horn	ESC50
+alarm_signal	car_horn	ESC50
+alarm_signal	clock_alarm	ESC50
+alarm_signal	clock_alarm	ESC50
+alarm_signal	siren	ESC50
+		
+animal	cat	ESC50
+animal	chirping_birds	ESC50
+animal	crickets	ESC50
+animal	crow	ESC50
+animal	dog	ESC50
+animal	frog	ESC50
+animal	hen	ESC50
+animal	insects	ESC50
+animal	pig	ESC50
+animal	rooster	ESC50
+animal	sheep	ESC50
+animal	cow	ESC50
+		
+bell	church_bells	ESC50
+bell	church_bells	ESC50
+		
+blender	beater	ReaLISED
+		
+human_sound	breathing	ESC50
+human_sound	breath	Nonspeech7k
+human_sound	sigh	VocalSound
+human_sound	snoring	ESC50
+human_sound	cough	Nonspeech7k
+human_sound	cough	VocalSound
+human_sound	coughing	ESC50
+human_sound	crying	Nonspeech7k
+human_sound	crying_baby	ESC50
+human_sound	screaming	Nonspeech7k
+human_sound	sneeze	Nonspeech7k
+human_sound	sneeze	VocalSound
+human_sound	sneezing	ESC50
+human_sound	sniff	VocalSound
+human_sound	snoring	ESC50
+human_sound	throatcleaning	VocalSound
+		
+brush	brush	DrumSamples
+		
+can_opening	can_opening	ESC50
+		
+chainsaw	chainsaw	ESC50
+		
+chicken_or_rooster	rooster	ESC50
+		
+china	china	DrumSamples
+china	china	FreesoundOneShotPercussive
+		
+church_bell_ringing	church_bells	ESC50
+church_bell_ringing	church_bells	ESC50
+		
+clap	clap	DrumSamples
+		
+clapping	clapping	ESC50
+		
+click	click	FreesoundOneShotPercussive
+		
+clock_tick	clock_tick	ESC50
+		
+cowbell	cowbell	DrumSamples
+		
+crow	crow	ESC50
+crow	crow	ESC50
+crow	crow	ESC50
+		
+cupboard_open_or_close	cupboard/wardrobe	ReaLISED
+		
+cymbals	cymbal	DrumSamples
+cymbals	cymbal	FreesoundOneShotPercussive
+cymbals	cymbals	FreesoundOneShotPercussive
+cymbals	hats	DrumSamples
+cymbals	hi-hat	DrumSamples
+cymbals	hi-hat	FreesoundOneShotPercussive
+cymbals	hihat	DrumSamples
+cymbals	crash	DrumSamples
+cymbals	crash	FreesoundOneShotPercussive
+cymbals	ride	DrumSamples
+cymbals	ride	FreesoundOneShotPercussive
+		
+furniture	furniture movement	ReaLISED
+		
+door	door_wood_creaks	ESC50
+door	door_wood_knock	ESC50
+		
+drawer_open_or_close	drawer	ReaLISED
+drawer_open_or_close	drawer	ReaLISED
+		
+engine	engine	ESC50
+		
+explosion	fireworks	ESC50
+		
+fireworks	fireworks	ESC50
+		
+footsteps	footsteps	ESC50
+footsteps	walking	ReaLISED
+		
+glass_break	glass_breaking	ESC50
+		
+hits	hits	DrumSamples
+		
+synthetic_impulse	ar_impulse	SyntheticImpulsiveSounds
+synthetic_impulse	chirp	SyntheticImpulsiveSounds
+synthetic_impulse	harmonic	SyntheticImpulsiveSounds
+		
+keyboard_typing	keyboard_typing	ESC50
+		
+mouse_click	mouse_click	ESC50
+		
+object_fall	object falling	ReaLISED
+		
+percussion	perc	DrumSamples
+percussion	perc	FreesoundOneShotPercussive
+percussion	percussion	FreesoundOneShotPercussive
+percussion	percussive	FreesoundOneShotPercussive
+		
+punchy	punchy	FreesoundOneShotPercussive
+		
+siren_ringing	siren	ESC50
+		
+snare	snare	DrumSamples
+snare	snare	FreesoundOneShotPercussive
+		
+snare_stick	snare_stick	DrumSamples
+		
+switch_on_or_off	switch	ReaLISED
+		
+thunderstorm	thunderstorm	ESC50
+		
+typing	keyboard_typing	ESC50
+typing	keyboard_typing	ESC50
+		
+window_opens_or_closes	window	ReaLISED
